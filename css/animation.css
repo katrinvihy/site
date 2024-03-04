@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates&family=Poiret+One&family=Rubik+Glitch&family=Seymour+One&display=swap');
+body{
+	background-color: #FADAD6;
+}
+marquee{
+	font-size: 50px;
+	background-color: #EB7463;
+	font-family: "Poiret One", sans-serif;;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: chartreuse;
+}
+@keyframes example1{
+	from{
+		background-color: chartreuse;
+	}
+	to{
+		background-color: cyan;
+	}
+}
+#d1{
+animation-name: example1;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example2{
+	0%{
+		background-color: chartreuse; left: 0px; top: 0px;
+	}
+	25%{
+		background-color: cyan; left: 200px; top: 200px;
+	}
+	50%{
+		background-color:peru; left: 200px; top: 0px;
+	}
+	75%{
+		background-color:slategray; left: 200px; top: 0px;
+	}
+	
+}
+#d2{
+animation-name: example2;
+position: relative;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes example3{
+	0%{
+		background-color: chartreuse; left: 0px; top: 0px;
+	}
+	25%{
+		background-color: cyan; left: 200px; top: 200px;
+	}
+	50%{
+		background-color:peru; left: 200px; top: 0px;
+	}
+	75%{
+		background-color:slategray; left: 200px; top: 0px;
+	}
+	
+}
+#d3{
+animation-name: example3;
+position: relative;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-delay: -2s;
+
+}
+@keyframes example4{
+	0%{
+		background-color: chartreuse; left: 0px; top: 0px;
+	}
+	25%{
+		background-color: cyan; left: 200px; top: 200px;
+	}
+	50%{
+		background-color:peru; left: 200px; top: 0px;
+	}
+	75%{
+		background-color:slategray; left: 200px; top: 0px;
+	}
+	
+}
+#d4{
+animation-name: example4;
+position: relative;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+@keyframes example5{
+	0%{background-color: red; left: 0%; top: 0%}
+	100%{background-color: purple; left: 95%; top: 0%}
+}
+#d5{
+animation-name: example5;
+position: relative;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: ease;}
+@keyframes example6{
+	0%{background-color: red; left: 0%; top: 0%}
+	100%{background-color: purple; left: 95%; top: 0%}
+}
+#d6{
+animation-name: example6;
+position: relative;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function:liner;}
+@keyframes example7{
+	0%{background-color: red; left: 0%; top: 0%}
+	100%{background-color: purple; left: 95%; top: 0%}
+}
+#d7{
+animation-name: example7;
+position: relative;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function:ease-out;}

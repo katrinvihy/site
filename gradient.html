@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>gradient</title>
+	<style type="text/css"> 
+		body{
+			background-color: lightcoral;}
+			
+			div{height: 300px;
+				width: 300px;
+			margin: 20px;
+			float: left;
+		}
+			</style>
+</head>
+<body>
+<p style="font-size:1in; background: linear-gradient(pink, red, blue);">Ми вивчаемо градієнти</p>
+<div style="background: linear-gradient(to left, blue, yellow);"></div>
+<div style="background: linear-gradient(45deg, blue, yellow);"></div>
+<div style="background: linear-gradient(225deg, blue, yellow);"></div>	
+<div style="background: linear-gradient(45deg, blue, yellow 30%);"></div>
+<div style="background: linear-gradient(180deg, blue 50%, yellow 50%); height: 300px; width: 530px;"></div>
+<div style="background: linear-gradient(180deg, red 0% 25%, blue 25% 50%, yellow 50% 75%, green 75% 100%); height: 300px; width: 530px;"></div>
+<div style="background: radial-gradient(blue, yellow);"></div>
+<div style="background: radial-gradient(blue, yellow 50%);"></div>
+<div style="background: radial-gradient(circle at 75px 75px, blue, yellow 50%);"></div>
+<div style="background: radial-gradient(blue, yellow 50%); border-radius: 25%;"></div>
+<div style="background: radial-gradient(blue, yellow 50%); border-radius: 50%;"></div>
+<div style="background: radial-gradient(blue, yellow 40%); border-radius: 50%;"></div>
+<div style="background:conic-gradient(yellow,blue);"></div>
+<div style="background:conic-gradient(yellow,blue,orange,white);"></div>
+<div style="background:conic-gradient(from 45deg,yellow,blue,orange,white);"></div>
+<div style="background:repeating-linear-gradient(yellow 20px,blue 40px);"></div>
+<div style="background:repeating-linear-gradient(yellow 10% 20%,blue 20% 40%);"></div>
+<div style="background:repeating-radial-gradient(yellow 10% 20%,blue 20% 40%);"></div>
+<div style="background:repeating-radial-gradient(yellow 20px,blue 40px);"></div>
+<div style="background:repeating-conic-gradient(yellow 10% 20%,blue 20% 40%);"></div>
+<div style="background: linear-gradient(to bottom, #cc6699 0%, #9933ff 100%);"></div>
+<div style="background: linear-gradient(to bottom left, #9900ff 13%, #cc66ff 100%);"></div>
+<div style="background: linear-gradient(to top right, #9900ff 13%, #009999 100%);"></div>
+</body>
+</html>

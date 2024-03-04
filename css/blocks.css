@@ -1,0 +1,91 @@
+body{
+	background-color: navy;
+}
+p{
+	font-size: 50px;
+	background-color: silver;
+}
+.p1{
+	display:inline-block;
+}
+.s1{
+	border: dotted 2px white;
+	display: block;
+}
+#first{
+	width: 500px;
+	height: 500px;
+	background-color: floralwhite;
+	border: ridge 20px black;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-left: dotted pink;
+	border-width: 20px;
+	border-right: dashed 20px blue;
+	border-bottom: groove 20px red;
+	border-top: ridge 20px orange;
+	margin: 50px;
+	border-radius: 10% 15% 20% 25%;
+}
+#second{
+	width: 700px;
+	height: 700px;
+	background-color: floralwhite;
+	border: groove 20 px black;
+	font-size: 50px;
+	text-align: center;
+	padding: 50px;
+	border-style: dotted dashed;
+	border-color: red orchid;
+}
+#third, #forth{
+	width: 800px;
+	height: 200px;
+	border: dashed 10px pink;
+	margin: 20px;
+}
+#forth{
+	border-left: double 10px mediumpurple;
+	border-right: groove 10px crimson;
+	border-top: solid  10px olivedrab;
+	border-bottom: groove 10px maroon;
+}
+#third{
+	border-left: groove 15px royalblue;
+	border-right: solid 10px powderblue;
+	border-top: groove  10px darkkhaki;
+	border-bottom: double 15px deeppink;
+	border-radius: 10% 20%;}
+
+#fifth{
+width: 600px;
+height: 500px;
+padding: 20px;
+padding-left: 30px;
+text-align: center;
+border: ridge 20px #0E3876;
+margin: 40px;
+background-color: #0948A4;
+}
+
+#sixth{
+width: 500px;
+height: 400px;
+padding: 20px;
+padding-left: 30px;
+text-align: center;
+border: ridge 20px steelblue;
+background-color: #2762B8;
+}
+
+#seventh{
+width: 400px;
+height: 300px;
+padding: 20px;
+padding-left: 30px;
+text-align: center;
+border: ridge 20px skyblue;
+background-color: #5982BD;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,400;1,800&family=Montserrat+Alternates&family=Rubik+Glitch&family=Seymour+One&display=swap');
+
+body{ 
+background-color: lightcoral;
+ }
+ p{ 
+font-size: 50px;
+ font-family: "Jost", sans-serif;
+ text-align: center;
+color:black;
+}
+table{
+	border: double 5px black;
+    width: 50%;
+    font-size: 25px;
+    border-collapse: separate;
+    margin: auto;
+    font-family: "Jost", sans-serif;
+}
+caption{
+	font-size:48px;
+	color:black;
+	font-family: : "Jost", sans-serif;
+}
+th,td{
+	border: solid 2px black;
+width: 25%;
+height: 1cm;
+}
+tr:hover{
+	background-color:lightgrey;
+}
+td:hover{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	color: black;
+	}
+	tr:nth-child(odd){
+background-color: white;
+}
+
+tr:nth-child(even){
+background-color:peachpuff;
+}
+
+

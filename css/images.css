@@ -1,0 +1,46 @@
+body{
+backgroung-color: #99CC99;
+background-image: url(https://cliply.co/wp-content/uploads/2021/07/452105030_HEART_DOODLES_400.gif);
+background-size: 200px;
+background-repeat: no-repeat;
+	background-position: 100% 100%;
+background-attachment: fixed;}
+p{
+	font-size: 0.8in;
+	background-image: url(https://img.freepik.com/free-vector/gradient-pastel-color-background_23-2149360873.jpg?size=626&ext=jpg&uid=R136744879&ga=GA1.1.2080964542.1706869297&semt=sph);
+backgrond-size: cover;
+color: orange;
+text-align: center;
+}
+div{
+	height: 500px;
+	width: 500px;
+}
+#d1{
+	background-image: url(https://img.freepik.com/free-photo/fresh-coconut-halves-blue-background_169016-6442.jpg?w=996&t=st=1707568427~exp=1707569027~hmac=5af3258fa4a19d790aca994a4e6d353923425bc9b6976eb74aa30f08ad5a9c48);
+border: ridge 20px black;
+}
+#d2{background-image: url(https://img.freepik.com/free-psd/tropical-foliage-background_53876-91352.jpg?w=996&t=st=1707568993~exp=1707569593~hmac=ed44892c598e3d2d3e896895ddbe3027be36da78b9505a25009b42630ae6d296);
+	border: ridge 20px black;
+}
+
+#img1{
+	width: 50%;
+}
+#img2{
+	display: block;
+	margin: auto;
+	width: 50%;
+	border-radius: 50%;
+	box-shadow: 10px -10px 50px gray;
+}
+#img3{
+	background-image: linear-gradient(rgba(2, 78, 255, 0.5), rgba(88, 255, 56,1.5)),
+                  url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_-_Eiffelturm_und_Marsfeld2.jpg/582px-Paris_-_Eiffelturm_und_Marsfeld2.jpg");
+
+} 
+#d3{
+	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url(https://img.freepik.com/free-vector/gradient-pastel-color-background_23-2149360873.jpg?size=626&ext=jpg&uid=R136744879&ga=GA1.1.2080964542.1706869297&semt=sph);
+
+}

@@ -1,0 +1,139 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+header {
+  background: url(https://img.freepik.com/free-photo/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper_1258-99446.jpg?t=st=1709555079~exp=1709558679~hmac=3ff8ca91dff8987cd26fc3bda25bbc84369a0323a7ef00ccccfded315ef6ccad&w=1380);
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+ 
+  text-shadow: 1px 1px 1px #333;
+  
+}
+
+h1 {
+	color: #902CA0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+h2{
+	color: #902CA0;
+	font-family:  "Ubuntu", sans-serif ;
+}
+h3, p {
+	color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #333;
+  background: #fff;
+  margin-bottom: 50px;
+  box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+  cursor: pointer;
+}
+h4{
+	color: black;
+	 font-family: 'Open Sans', sans-serif;
+}
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+a{
+    transition: border-radius 0.2s linear 0s;
+    transform: rotate(45deg);
+    
+    i {
+      transition: transform 0.01s linear 0s;
+      transform: rotate(-45deg);
+    }
+    
+    &:hover {
+      border-radius: 0px;
+    }
+  }
+}
+
+
+.effect.amiens{
+  
+  a{
+    transition: all 0.2s linear 0.2s;
+    
+    i{
+      transition: all 0.2s linear 0s;
+    }
+    
+    &:hover {
+      transition: all 0.2s linear 0s;
+      border-color: rgba($basic-dark-color,0);
+      
+      i {
+        transform: scale(1.15);
+        text-shadow: 10px 0px 10px rgba($basic-dark-color,0.5);
+        transition: all 0.2s linear 0.2s;
+      }
+    }
+  }
+}
+

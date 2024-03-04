@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates&family=Poiret+One&family=Rubik+Glitch&family=Seymour+One&family=Tenor+Sans&display=swap');
+
+h1{
+	font-weight: 400;
+	text-align: center;
+font-family: "Tenor Sans", sans-serif;
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+p{
+  text-indent: 36px;
+font-size: 18px;
+line-height: 24px;
+font-family: sans-serif;
+text-align: justify;
+margin-left: 20px;
+margin-right: 20px;
+word-spacing: 5px;
+}
+h2, h3{
+	font-family: sans-serif;
+margin-left: 20px;
+}
+#img1{
+float: left;
+margin-right: 20px;
+}
+figure{
+	border: solid 1px gray;
+	padding: 5px;
+}
+figure.right{
+	float: right;
+
+}
+figure.left{
+	float: left;
+}
